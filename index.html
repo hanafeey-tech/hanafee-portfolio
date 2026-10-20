@@ -90,6 +90,48 @@
       .carousel-panel { padding:14px; }
       .carousel-slide img { height:clamp(230px,68vw,360px); }
     }
+    html, body { width: 100%; min-height: 100%; margin: 0 !important; padding: 0 !important; overflow-x: hidden; }
+  body { color: #2b2b2b !important; font-size: 17px; line-height: 1.6 !important; }
+  .site, .layout { width: 100%; max-width: none !important; margin: 0 !important; }
+  .layout { min-height: 100vh; grid-template-columns: 250px minmax(0, 1fr); }
+  .hero, .section, .carousel-panel { width: 100%; max-width: none !important; }
+  .main { width: 100% !important; max-width: none !important; min-width: 0; padding: clamp(22px, 4vw, 58px); }
+  .sidebar { color: #333 !important; }
+  .brand { font-size: 12px !important; color: #354237 !important; }
+  .brand-mark { font-size: 12px !important; }
+  .nav-label, .sidebar-note { color: #686e63 !important; font-size: 11px !important; }
+  .nav a { color: #333 !important; font-size: 16px !important; line-height: 1.6 !important; }
+  h1 { color: #252a25; font-size: clamp(36px, 5vw, 58px) !important; line-height: 1.25 !important; }
+  h2, .section-title, .section-heading { color: #292d29; font-size: clamp(23px, 2.5vw, 29px) !important; line-height: 1.4 !important; }
+  h3, .resume-title { color: #2b2b2b; font-size: 20px !important; line-height: 1.5 !important; }
+  p, li, .subtitle, .hero-copy, .card, .resume-list, .profile-copy, .contact-list li, .tag { color: #333 !important; font-size: 17px !important; line-height: 1.6 !important; }
+  .hero-copy { max-width: 850px; }
+  .meta, .eyebrow, .section-title small, .section-heading .heading-en, .resume-title small, .contact-list strong { color: #625d53 !important; font-size: 12px !important; line-height: 1.6 !important; }
+  .footer { color: #4f514b !important; font-size: 14px !important; line-height: 1.6 !important; }
+  .hero-content, .hero-content * { color: #fffdf5; }
+  .hero-content .hero-sub { color: #fffdf5 !important; font-size: 16px !important; }
+  .hero-content .hero-role { color: #fffdf5 !important; font-size: clamp(14px, 2vw, 19px) !important; }
+  .hero-content h1 { color: #fff !important; font-size: clamp(44px, 7vw, 84px) !important; }
+  .hero-content .eyebrow { color: #fffdf5 !important; font-size: 12px !important; }
+  .profile-name { font-size: 26px !important; }
+  .profile-role { color: #3f503e !important; font-size: 16px !important; }
+  .section-heading .heading-en { margin-left: auto; }
+  .resume-list ul { color: #3e443d !important; font-size: 15px !important; }
+  .contact-list strong { color: #555a50 !important; }
+  .carousel-slide figcaption { color: #333 !important; font-size: 16px !important; }
+  .tag { padding: 5px 11px; }
+  @media (max-width: 760px) {
+    .layout { display: block; }
+    .sidebar { position: sticky; top: 0; height: auto; padding: 9px 10px; }
+    .main { padding: 24px 18px 40px; }
+  }
+  @media (max-width: 540px) {
+    .main { padding: 20px 14px 32px; }
+    .home-grid, .cards { grid-template-columns: 1fr; }
+    .hero-banner { min-height: 420px; }
+    .hero-content { padding: 28px 22px; }
+    .hero-content .eyebrow, .hero-content .hero-role { letter-spacing: 1.5px; }
+  }
   </style>
 </head>
 <body>

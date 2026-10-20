@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f7f5ed"><title>ประสบการณ์ฝึกงาน | [ชื่อ-นามสกุล]</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+Thai:wght@300;400;500;600&display=swap');
   * { box-sizing: border-box; }
-  body { margin: 0; background: #f3f1e8; color: #354237; font-family: "Leelawadee UI", "Noto Sans Thai", Tahoma, Arial, sans-serif; line-height: 1.75; }
+  body { margin: 0; background: #f3f1e8; color: #354237; font-family: "Noto Sans Thai", "Leelawadee UI", Tahoma, Arial, sans-serif; line-height: 1.75; }
   a { color: inherit; text-decoration: none; }
   a:hover { color: #a66b50; }
   .site { min-height: 100vh; background: radial-gradient(ellipse at 90% 5%, rgba(204,214,186,.38), transparent 30rem), #f7f5ed; }
@@ -52,7 +53,48 @@
     .main { margin: auto; padding: 24px 16px 38px; }
   }
   @media (max-width: 540px) { .cards { grid-template-columns: 1fr; } .hero { border-radius: 18px; } }
-</style>
+  html, body { width: 100%; min-height: 100%; margin: 0 !important; padding: 0 !important; overflow-x: hidden; }
+  body { color: #2b2b2b !important; font-size: 17px; line-height: 1.6 !important; }
+  .site, .layout { width: 100%; max-width: none !important; margin: 0 !important; }
+  .layout { min-height: 100vh; grid-template-columns: 250px minmax(0, 1fr); }
+  .main { width: 100% !important; max-width: none !important; min-width: 0; padding: clamp(22px, 4vw, 58px); }
+  .sidebar { color: #333 !important; }
+  .brand { font-size: 12px !important; color: #354237 !important; }
+  .brand-mark { font-size: 12px !important; }
+  .nav-label, .sidebar-note { color: #686e63 !important; font-size: 11px !important; }
+  .nav a { color: #333 !important; font-size: 16px !important; line-height: 1.6 !important; }
+  h1 { color: #252a25; font-size: clamp(36px, 5vw, 58px) !important; line-height: 1.25 !important; }
+  h2, .section-title, .section-heading { color: #292d29; font-size: clamp(23px, 2.5vw, 29px) !important; line-height: 1.4 !important; }
+  h3, .resume-title { color: #2b2b2b; font-size: 20px !important; line-height: 1.5 !important; }
+  p, li, .subtitle, .hero-copy, .card, .resume-list, .profile-copy, .contact-list li, .tag { color: #333 !important; font-size: 17px !important; line-height: 1.6 !important; }
+  .hero-copy { max-width: 850px; }
+  .meta, .eyebrow, .section-title small, .section-heading .heading-en, .resume-title small, .contact-list strong { color: #625d53 !important; font-size: 12px !important; line-height: 1.6 !important; }
+  .footer { color: #4f514b !important; font-size: 14px !important; line-height: 1.6 !important; }
+  .hero-content, .hero-content * { color: #fffdf5; }
+  .hero-content .hero-sub { color: #fffdf5 !important; font-size: 16px !important; }
+  .hero-content .hero-role { color: #fffdf5 !important; font-size: clamp(14px, 2vw, 19px) !important; }
+  .hero-content h1 { color: #fff !important; font-size: clamp(44px, 7vw, 84px) !important; }
+  .hero-content .eyebrow { color: #fffdf5 !important; font-size: 12px !important; }
+  .profile-name { font-size: 26px !important; }
+  .profile-role { color: #3f503e !important; font-size: 16px !important; }
+  .section-heading .heading-en { margin-left: auto; }
+  .resume-list ul { color: #3e443d !important; font-size: 15px !important; }
+  .contact-list strong { color: #555a50 !important; }
+  .carousel-slide figcaption { color: #333 !important; font-size: 16px !important; }
+  .tag { padding: 5px 11px; }
+  @media (max-width: 760px) {
+    .layout { display: block; }
+    .sidebar { position: sticky; top: 0; height: auto; padding: 9px 10px; }
+    .main { padding: 24px 18px 40px; }
+  }
+  @media (max-width: 540px) {
+    .main { padding: 20px 14px 32px; }
+    .home-grid, .cards { grid-template-columns: 1fr; }
+    .hero-banner { min-height: 420px; }
+    .hero-content { padding: 28px 22px; }
+    .hero-content .eyebrow, .hero-content .hero-role { letter-spacing: 1.5px; }
+  }
+  </style>
 </head>
 <body><div class="site"><div class="layout"><aside class="sidebar"><div class="brand"><span class="brand-mark">HY</span><span>HANAFEE YUSOH<br>PORTFOLIO</span></div><p class="nav-label">EXPLORE</p><nav class="nav" aria-label="เมนูหลัก"><a href="index.html" target="_self">Home</a>
 <a href="education.html" target="_self">ประวัติการศึกษา</a>
@@ -60,4 +102,4 @@
 <a href="university-activities.html" target="_self">กิจกรรมในมหาลัย</a>
 <a href="certificate.html" target="_self">Certificate</a>
 <a href="mini-projects.html" target="_self">Mini Project</a>
-<a href="hobbies.html" target="_self">กิจกรรมยามว่าง</a></nav><p class="sidebar-note">แก้ไขข้อความใน [ ] ก่อนเผยแพร่</p></aside><main class="main"><header class="hero"><div class="eyebrow">Internship · Professional Experience</div><h1>ประสบการณ์ฝึกงาน</h1><p class="subtitle">ประสบการณ์ภาคปฏิบัติด้าน IT Support และการดูแลระบบคอมพิวเตอร์</p><div class="hero-copy"><p>ได้ฝึกแก้ปัญหาจากสถานการณ์จริง ตั้งแต่การดูแลเครื่องคอมพิวเตอร์และซอฟต์แวร์ ไปจนถึงระบบเครือข่ายและการติดตั้งอุปกรณ์</p></div></header><section class="section"><h2 class="section-title">IT Support <small>SONGKHLA HOSPITAL</small></h2><article class="card"><figure class="workplace-figure"><img src="โรงพยาบาลสงขลา.gif" alt="ภาพโรงพยาบาลสงขลา สถานที่ฝึกงาน IT Support" loading="lazy"><figcaption>สถานที่ฝึกงาน · โรงพยาบาลสงขลา</figcaption></figure><p class="meta">นักศึกษาฝึกงาน · ระยะเวลา 1 เดือน</p><h3>โรงพยาบาลสงขลา</h3><p><strong>หน้าที่และความรับผิดชอบ</strong></p><ul><li>ตรวจสอบและแก้ไขปัญหาฮาร์ดแวร์และซอฟต์แวร์คอมพิวเตอร์</li><li>ช่วยแก้ไขปัญหาเครือข่ายและการเชื่อมต่อ</li><li>เดินสาย LAN และติดตั้ง MikroTik Router</li></ul><p><strong>สิ่งที่ได้เรียนรู้:</strong> ฝึกวิเคราะห์อาการของปัญหาและดำเนินการแก้ไขงานสนับสนุนด้าน IT ทั้งในส่วนเครื่องผู้ใช้และเครือข่าย</p><div class="tags"><span class="tag">IT Support</span><span class="tag">Hardware & Software</span><span class="tag">LAN</span><span class="tag">MikroTik</span></div></article></section><section class="section"><h2 class="section-title">IT Technician <small>THAKSIN INFOTECH · PATTANI</small></h2><article class="card"><figure class="workplace-figure"><img src="ทักษิณ อินโฟเทค · จังหวัดปัตตานี.png" alt="ภาพร้านทักษิณ อินโฟเทค จังหวัดปัตตานี สถานที่ฝึกงาน IT Technician" loading="lazy"><figcaption>สถานที่ฝึกงาน · ทักษิณ อินโฟเทค จังหวัดปัตตานี</figcaption></figure><p class="meta">นักศึกษาฝึกงาน · ระยะเวลา 4 เดือน</p><h3>ทักษิณ อินโฟเทค · จังหวัดปัตตานี</h3><p><strong>หน้าที่และความรับผิดชอบ</strong></p><ul><li>ติดตั้งและแก้ไขปัญหาเครื่องคอมพิวเตอร์</li><li>ติดตั้งระบบปฏิบัติการ Windows และซอฟต์แวร์</li><li>ติดตั้งอุปกรณ์และให้บริการนอกสถานที่</li></ul><p><strong>สิ่งที่ได้เรียนรู้:</strong> เพิ่มความชำนาญในการติดตั้งและดูแลระบบคอมพิวเตอร์ พร้อมฝึกทำงานตามโจทย์และสภาพแวดล้อมของผู้ใช้งานจริง</p><div class="tags"><span class="tag">Computer Troubleshooting</span><span class="tag">Windows</span><span class="tag">Software Installation</span><span class="tag">On-site Support</span></div></article></section><footer class="footer">[ชื่อ-นามสกุล] · [อีเมลสำหรับติดต่อ]</footer></main></div></div></body></html>
+<a href="hobbies.html" target="_self">กิจกรรมยามว่าง</a></nav><p class="sidebar-note">แก้ไขข้อความใน [ ] ก่อนเผยแพร่</p></aside><main class="main"><header class="hero"><div class="eyebrow">Internship · Professional Experience</div><h1>ประสบการณ์ฝึกงาน</h1><p class="subtitle">ประสบการณ์ภาคปฏิบัติด้าน IT Support และการดูแลระบบคอมพิวเตอร์</p><div class="hero-copy"><p>ได้ฝึกแก้ปัญหาจากสถานการณ์จริง ตั้งแต่การดูแลเครื่องคอมพิวเตอร์และซอฟต์แวร์ ไปจนถึงระบบเครือข่ายและการติดตั้งอุปกรณ์</p></div></header><section class="section"><h2 class="section-title">IT Support <small>SONGKHLA HOSPITAL</small></h2><article class="card"><figure class="workplace-figure"><img src="โรงพยาบาลสงขลา.gif" alt="ภาพโรงพยาบาลสงขลา สถานที่ฝึกงาน IT Support" loading="lazy"><figcaption>สถานที่ฝึกงาน · โรงพยาบาลสงขลา</figcaption></figure><p class="meta">นักศึกษาฝึกงาน · ระยะเวลา 1 เดือน</p><h3>โรงพยาบาลสงขลา</h3><p><strong>หน้าที่และความรับผิดชอบ</strong></p><ul><li>ตรวจสอบและแก้ไขปัญหาฮาร์ดแวร์และซอฟต์แวร์คอมพิวเตอร์</li><li>ช่วยแก้ไขปัญหาเครือข่ายและการเชื่อมต่อ</li><li>เดินสาย LAN และติดตั้ง MikroTik Router</li></ul><p><strong>สิ่งที่ได้เรียนรู้:</strong> ฝึกวิเคราะห์อาการของปัญหาและดำเนินการแก้ไขงานสนับสนุนด้าน IT ทั้งในส่วนเครื่องผู้ใช้และเครือข่าย</p><div class="tags"><span class="tag">IT Support</span><span class="tag">Hardware & Software</span><span class="tag">LAN</span><span class="tag">MikroTik</span></div></article></section><section class="section"><h2 class="section-title">IT Technician <small>THAKSIN INFOTECH · PATTANI</small></h2><article class="card"><figure class="workplace-figure"><img src="ทักษิณ อินโฟเทค · จังหวัดปัตตานี.png" alt="ภาพร้านทักษิณ อินโฟเทค จังหวัดปัตตานี สถานที่ฝึกงาน IT Technician" loading="lazy"><figcaption>สถานที่ฝึกงาน · ทักษิณ อินโฟเทค จังหวัดปัตตานี</figcaption></figure><p class="meta">นักศึกษาฝึกงาน · ระยะเวลา 4 เดือน</p><h3>ทักษิณ อินโฟเทค · จังหวัดปัตตานี</h3><p><strong>หน้าที่และความรับผิดชอบ</strong></p><ul><li>ติดตั้งและแก้ไขปัญหาเครื่องคอมพิวเตอร์</li><li>ติดตั้งระบบปฏิบัติการ Windows และซอฟต์แวร์</li><li>ติดตั้งอุปกรณ์และให้บริการนอกสถานที่</li></ul><p><strong>สิ่งที่ได้เรียนรู้:</strong> เพิ่มความชำนาญในการติดตั้งและดูแลระบบคอมพิวเตอร์ พร้อมฝึกทำงานตามโจทย์และสภาพแวดล้อมของผู้ใช้งานจริง</p><div class="tags"><span class="tag">Computer Troubleshooting</span><span class="tag">Windows</span><span class="tag">Software Installation</span><span class="tag">On-site Support</span></div></article></section><footer class="footer">[ชื่อ-นามสกุล] · hanafee.y@rmutsvmail.com</footer></main></div></div></body></html>
